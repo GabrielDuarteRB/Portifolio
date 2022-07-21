@@ -1,0 +1,47 @@
+.perfil{
+    align-items: center;
+    display: flex;
+    margin: auto 0;
+    padding-top: 25vh;
+    justify-content: center;
+    gap: 100px;
+}
+
+.perfil p{
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.perfil  h1 {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 64px;
+    font-family: 'Special Elite', cursive;
+    margin: 15px auto auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.animacaoCursor {
+    animation: piscaCursor 500ms steps(15) infinite normal, 
+    digitando 4s steps(15) 1s normal both;
+}
+
+@keyFrames digitando {
+    from{
+        width: 0;
+    }
+    to{
+        width: 500px;
+    }
+}
+
+@keyframes piscaCursor {
+    from{
+        border-right-color: rgba(255, 255, 255, 0.75); 
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

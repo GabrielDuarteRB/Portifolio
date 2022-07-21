@@ -1,0 +1,39 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 0 50px;
+}
+
+.cards > div{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+}
+
+.cards > div > div:last-child{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.cards > div > div > a {
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+    width:max-content;
+}
+
+.cards h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+p, h1 {
+    margin: 0;
+    padding: 0;
+}

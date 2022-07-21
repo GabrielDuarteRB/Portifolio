@@ -1,0 +1,10 @@
+.informacao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacao > h1 {
+    color: white;
+    margin-bottom: 25px;
+}
