@@ -1,13 +1,14 @@
 .lista{
     display: grid;
-    grid-template-columns: 250px 250px 250px;
-    margin: 0 0 56px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 0;
     padding: 0;
 }
 
 .lista li {
     align-items: center;
-    border: 1px solid lightblue;
+    border: 3px solid whitesmoke;
     border-radius: 5px;
     display: flex;
     list-style: none;
